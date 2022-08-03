@@ -13,6 +13,7 @@ public class SpringNewApplication {
         Person p1=context.getBean(Person.class);
         p1.show();
         p.show();
+        System.out.println("end");
     }
 
 }
